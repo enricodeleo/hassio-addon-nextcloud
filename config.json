@@ -3,7 +3,7 @@
     "version": "20.0.3",
     "slug": "nextcloud",
     "description": "Self-hosted file share and collaboration platform on the web",
-    "url": "https://github.com/mtthp/hassio-addons/tree/master/nextcloud",
+    "url": "https://github.com/enricodeleo/hassio-addon-nextcloud",
     "webui": "http://[HOST]:[PORT:80]",
     "panel_icon": "mdi:cloud-sync",
     "startup": "services",

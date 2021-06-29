@@ -1,9 +1,0 @@
-{
-  "build_from": {
-    "armhf" : "marklagendijk/toogoodtogo-watcher:3.3.3",
-    "armv7": "marklagendijk/toogoodtogo-watcher:3.3.3",
-    "aarch64": "marklagendijk/toogoodtogo-watcher:3.3.3",
-    "amd64" : "marklagendijk/toogoodtogo-watcher:3.3.3",
-    "i386" : "marklagendijk/toogoodtogo-watcher:3.3.3"
-  }
-}

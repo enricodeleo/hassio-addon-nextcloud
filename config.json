@@ -35,5 +35,5 @@
         "armv7",
         "i386"
     ],
-    "image": "enricodeleo/{arch}-addon-nextcloud"
+    "image": "enrico/hassio-addon-nextcloud-{arch}"
 }

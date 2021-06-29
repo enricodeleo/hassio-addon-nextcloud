@@ -1,6 +1,6 @@
 # Nextcloud add-on for Home Assistant
 
-![logo](logo.png)
+![logo](https://raw.githubusercontent.com/enricodeleo/hassio-addon-nextcloud/master/logo.png)
 
 ## About
 

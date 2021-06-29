@@ -35,5 +35,5 @@
         "armv7",
         "i386"
     ],
-    "image": "mtthp/{arch}-addon-nextcloud"
+    "image": "enricodeleo/{arch}-addon-nextcloud"
 }

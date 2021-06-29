@@ -1,5 +1,7 @@
 # Nextcloud add-on for Home Assistant
 
+![logo](logo.png)
+
 ## About
 
 Nextcloud is a suite of client-server software for creating and using file hosting services.

@@ -57,6 +57,7 @@ jobs:
         uses: home-assistant/builder@master
         with:
           args: |
+            ${{ env.BUILD_ARGS }} \
             --all \
             --target ./ \
             --docker-hub ${{ secrets.DOCKERHUB_USERNAME }}

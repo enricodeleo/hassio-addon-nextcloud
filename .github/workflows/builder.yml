@@ -59,7 +59,7 @@ jobs:
           args: |
             ${{ env.BUILD_ARGS }} \
             --all \
-            --target /data/hassio-addon-nextcloud \
+            --target ./ \
             --docker-hub ${{ secrets.DOCKERHUB_USERNAME }}
 
       # - name: Build

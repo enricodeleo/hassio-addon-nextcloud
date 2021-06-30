@@ -25,7 +25,8 @@
         "NEXTCLOUD_ADMIN_USER": "hassio",
         "NEXTCLOUD_ADMIN_PASSWORD": "",
         "NEXTCLOUD_TABLE_PREFIX": "nc_",
-        "NEXTCLOUD_TRUSTED_DOMAINS": "hassio.local"
+        "NEXTCLOUD_TRUSTED_DOMAINS": "hassio.local",
+        "TRUSTED_PROXIES": "127.0.0.1 172.30.33.0/24 192.168.1.1"
     },
     "schema": {
         "MYSQL_DATABASE": "str",
@@ -35,7 +36,8 @@
         "NEXTCLOUD_ADMIN_USER": "str",
         "NEXTCLOUD_ADMIN_PASSWORD": "str",
         "NEXTCLOUD_TABLE_PREFIX": "str",
-        "NEXTCLOUD_TRUSTED_DOMAINS": "str"
+        "NEXTCLOUD_TRUSTED_DOMAINS": "str",
+        "TRUSTED_PROXIES": "str"
     },
     "arch": [
         "aarch64",

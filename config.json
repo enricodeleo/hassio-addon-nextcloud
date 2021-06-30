@@ -28,14 +28,14 @@
         "NEXTCLOUD_TRUSTED_DOMAINS": "hassio.local"
     },
     "schema": {
-        "MYSQL_DATABASE": "string",
-        "MYSQL_USER": "string",
-        "MYSQL_PASSWORD": "string",
-        "MYSQL_HOST": "string",
-        "NEXTCLOUD_ADMIN_USER": "string",
-        "NEXTCLOUD_ADMIN_PASSWORD": "string",
-        "NEXTCLOUD_TABLE_PREFIX": "string",
-        "NEXTCLOUD_TRUSTED_DOMAINS": "string"
+        "MYSQL_DATABASE": "str",
+        "MYSQL_USER": "str",
+        "MYSQL_PASSWORD": "str",
+        "MYSQL_HOST": "str",
+        "NEXTCLOUD_ADMIN_USER": "str",
+        "NEXTCLOUD_ADMIN_PASSWORD": "str",
+        "NEXTCLOUD_TABLE_PREFIX": "str",
+        "NEXTCLOUD_TRUSTED_DOMAINS": "str"
     },
     "arch": [
         "aarch64",

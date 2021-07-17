@@ -1,13 +1,12 @@
 {
     "name": "Nextcloud",
-    "version": "20.0.3",
+    "version": "20.0.11",
     "slug": "nextcloud",
     "description": "Self-hosted file share and collaboration platform on the web",
-    "url": "https://github.com/enricodeleo/hassio-addon-nextcloud",
-    "webui": "http://[HOST]:[PORT:80]",
-    "panel_icon": "mdi:cloud-sync",
     "startup": "services",
     "boot": "auto",
+    "webui": "http://[HOST]:[PORT:80]",
+    "panel_icon": "mdi:cloud-sync",
     "ports": {
         "80/tcp": null
     },
@@ -24,8 +23,7 @@
         "MYSQL_HOST": "addon_core_mariadb",
         "NEXTCLOUD_ADMIN_USER": "hassio",
         "NEXTCLOUD_ADMIN_PASSWORD": "",
-        "NEXTCLOUD_TABLE_PREFIX": "nc_",
-        "NEXTCLOUD_TRUSTED_DOMAINS": "hassio.local",
+        "NEXTCLOUD_TRUSTED_DOMAINS": "homeassistant.local",
         "TRUSTED_PROXIES": "127.0.0.1 172.30.33.0/24 192.168.1.1"
     },
     "schema": {
@@ -35,7 +33,6 @@
         "MYSQL_HOST": "str",
         "NEXTCLOUD_ADMIN_USER": "str",
         "NEXTCLOUD_ADMIN_PASSWORD": "str",
-        "NEXTCLOUD_TABLE_PREFIX": "str",
         "NEXTCLOUD_TRUSTED_DOMAINS": "str",
         "TRUSTED_PROXIES": "str"
     },
